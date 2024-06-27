@@ -1,4 +1,4 @@
-package com.example.relativelayoutexample
+package com.example.colorlayout
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,84 +1,92 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="#000000"
+    >
 
     <TextView
         android:id="@+id/red"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginRight="216dp"
+        android:layout_marginEnd="216dp"
         android:background="#FF0000"
-        android:text="RED"
+        android:text="@string/red"
         android:gravity="center"
         android:textColor="#FFFFFF"
+        android:textSize="15sp"
         android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/orange"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginRight="216dp"
-        android:layout_toRightOf="@id/red"
+        android:layout_marginEnd="216dp"
+        android:layout_toEndOf="@id/red"
         android:background="#FFA500"
-        android:text="ORANGE"
+        android:text="@string/orange"
         android:gravity="center"
         android:textColor="#000000"
+        android:textSize="15sp"
         android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/yellow"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toRightOf="@id/orange"
+        android:layout_toEndOf="@id/orange"
         android:background="#FFFF00"
-        android:text="YELLOW"
+        android:text="@string/yellow"
         android:gravity="center"
         android:textColor="#000000"
+        android:textSize="15sp"
         android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/green"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="55dp"
-
-        android:layout_marginLeft="200dp"
         android:layout_below="@id/red"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="54dp"
         android:background="#008000"
-        android:text="GREEN"
         android:gravity="center"
+        android:text="@string/green"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
 
     <TextView
         android:id="@+id/blue"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@id/orange"
-        android:layout_toRightOf="@id/green"
+        android:layout_toEndOf="@id/green"
         android:background="#0000FF"
         android:layout_marginTop="55dp"
-        android:layout_marginLeft="12dp"
-        android:text="BLUE"
+        android:layout_marginStart="12dp"
+        android:text="@string/blue"
         android:gravity="center"
         android:textColor="#FFFFFF"
+        android:textSize="15sp"
         android:textStyle="bold"/>
+
 
     <TextView
         android:id="@+id/indigo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@id/yellow"
-        android:layout_marginRigt=""
         android:layout_marginStart="10dp"
         android:layout_marginTop="55dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="10dp"
-        android:layout_toRightOf="@id/blue"
+        android:layout_toEndOf="@id/blue"
         android:background="#4B0082"
+        android:textSize="15sp"
         android:gravity="center"
-        android:text="INDIGO"
+        android:text="@string/indigo"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />
 
@@ -91,11 +99,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="57dp"
+        android:textSize="15sp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="-1dp"
         android:background="#EE82EE"
         android:gravity="center"
-        android:text="VIOLET"
+        android:text="@string/violet"
         android:textColor="#000000"
         android:textStyle="bold" />
 </RelativeLayout>
