@@ -33,6 +33,7 @@
         android:id="@+id/yellow"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginStart="100dp"
         android:layout_toEndOf="@id/orange"
         android:background="#FFFF00"
         android:text="@string/yellow"
